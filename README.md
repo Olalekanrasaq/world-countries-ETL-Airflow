@@ -15,9 +15,9 @@ To enable a shared network between postgres and metabase
 
 ### ETL Pipeline
 The ETL part of the project is divided into three part:
-- Extract data from the Rest API
-- Transform the data and retrieve fields of interest
-- Load the transformed data into PostgreSQL database.
+- Extracted data from the Rest API
+- Transformed the data and retrieve fields of interest
+- Loaded the transformed data into PostgreSQL database.
 
 The ETL pipeline workflow is orchestrated with airflow. [See DAG file](./dags/country_info_dag.py) for the ETL pipekine code orchestrated in airflow.
 
