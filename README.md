@@ -4,7 +4,10 @@ This project involved integrating data from a public REST API for countries info
 The project is divided into two parts:
 - The ETL pipeline orchestrated with airflow, and
 - Data visualization with Metabase
-All setup is done with Docker using [Docker-compose file](./docker-compose.yaml) for both airflow and Postgres database connection.
+All setup is done with Docker using [Docker-compose file](./docker-compose.yaml) for both airflow and Postgres database connection. Below is the architectural flow of the project:
+
+![ETL Architecture Flow](./etl_architecture_flow.png)
+
 
 In addition to the file, the metabase docker image was pulled from metabase by running
 - `docker pull metabase/metabase:latest`
