@@ -1,9 +1,10 @@
-## Data Integrating from a public REST API for countries information
+## Data Integration from a public REST API for countries information
 
 This project involved integrating data from a public REST API for countries information. This data will be used by a travel agency to recommend travel destinations to customers based on some different factors like language, continents, regions, currency and many more. The world country data is extracted from https://restcountries.com/v3.1/all.
 The project is divided into two parts:
 - The ETL pipeline orchestrated with airflow, and
 - Data visualization with Metabase
+
 All setup is done with Docker using [Docker-compose file](./docker-compose.yaml) for both airflow and Postgres database connection. Below is the architectural flow of the project:
 
 <img src="./etl_architecture_flow.png" alt="ETL Architecture Flow" width="50%"/>
