@@ -7,7 +7,7 @@ The project is divided into two parts:
 
 All setup is done with Docker using [Docker-compose file](./docker-compose.yaml) for both airflow and Postgres database connection. Below is the architectural flow of the project:
 
-<img src="./etl_architecture_flow.png" alt="ETL Architecture Flow" width="50%"/>
+<img src="./etl_architecture.png" alt="ETL Architecture Flow" width="50%"/>
 
 
 In addition to the file, the metabase docker image was pulled from metabase by running
