@@ -1,0 +1,21 @@
+CREATE TABLE IF NOT EXISTS WorldCountries (
+    id SERIAL PRIMARY KEY,
+    country_name TEXT,
+    independence BOOLEAN,
+    UN_member BOOLEAN,
+    startOfWeek TEXT,
+    official_name TEXT,
+    nativeName TEXT,
+    currency_code TEXT,
+    currency_name TEXT,
+    currency_symbol TEXT,
+    country_code TEXT,
+    capital TEXT,
+    region TEXT,
+    subregion TEXT,
+    language TEXT,
+    no_languages INT,
+    area NUMERIC(18,2),
+    population BIGINT,
+    continent TEXT
+);
