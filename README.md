@@ -5,7 +5,7 @@ The project is divided into two parts:
 - The ETL pipeline orchestrated with airflow, and
 - Data visualization with Metabase
 
-All setup is done with Docker using [Docker-compose file](./docker-compose.yaml) for Airflow, Postgres database, and Metabase. A custom docker image (custom_airflow) was built for this project using the [Dockerfile](./Dockerfile). The custome image include apache/airflow:3.0.1, pip packages found in [requirements file](./requirements.txt), and embedded python files and dag. The custom docker image is pushed to docker hub and can be accessed via [this link](https://hub.docker.com/repository/docker/olalekanrasaq/custom_airflow/).
+All setup is done with Docker using [Docker-compose file](./docker-compose.yaml) for Airflow, Postgres database, and Metabase. A custom docker image (custom_airflow) was built for this project using the [Dockerfile](./Dockerfile). The custom image include apache/airflow:3.0.1, pip packages found in [requirements file](./requirements.txt), and embedded python files and dag. The custom docker image is pushed to docker hub and can be accessed via [this link](https://hub.docker.com/repository/docker/olalekanrasaq/custom_airflow/).
 
 Below is the architectural flow of the project:
 
